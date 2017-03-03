@@ -1,0 +1,186 @@
+
+<section class="page3wrapper">
+
+<div class="navbar">
+      <h3 style="margin: 43px 0px 0px 22px;">Sign Up<span class="fast_free"> - It's fast,Easy,Free, & Secure!</span></h3>
+ 
+ <div id="menu3">
+	<ul class="nav-breadcrumb">
+		
+		
+		<li>
+			<a href="javascript:void(0);" class="active">
+				<span class="bold">Step 3</span> Account Details
+			</a>
+		</li>
+
+		<li>
+			<a href="javascript:void(0);" class="finished" >
+				<span class="bold">Step 2</span> Personal info
+			</a>
+		</li>
+
+		<li>
+			<a href="javascript:void(0);" class="finished" >
+				<span class="bold">Step 1</span> Basic Info
+			</a>
+		</li>
+	</ul>
+</div>   
+
+
+
+
+</div>
+
+
+
+<!-- form-section starts  -->
+	<div class="form-section">
+	<table >
+	<tr>
+	    <td class="formlabel"><label for="Username">User name</label></td>
+		<td class="forminput"><input type="text" name="Username" id="Username" ng-model="$root.account.userName" pattern="[A-Za-z]{1}[a-zA-Z0-9]{5,12}" ></td>
+		<td><button style="width: 136px;height: 26px" class="Btn_Reset">check availability</button></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><p>6 to 12 characters long, must start with a letter, and <br> contain only letters & numbers</p></td>
+	</tr>
+	<tr>
+		<td class="formlabel"><label for="Password">Password</label></td>
+		<td class="forminput"><input type="text" name="Password" id="Password" ng-model="$root.account.password" pattern="[a-zA-Z0-9]{6,12}"></td>
+		
+	</tr>
+	<tr>
+		<td></td>
+		<td><p>6 to 12 characters long, must  contain only letters & <br> numbers</p></td>
+	</tr>
+	<tr>
+		<td  class="formlabel" ><label for="Re-enter Password">Re-enter Password</label></td>
+		<td class="forminput"><input type="text" name="re-enterPassword" id="Re-enter Password" ng-model="$root.account.confirmPassword" pattern="[a-zA-Z0-9]{6,12}"></td>
+	</tr>
+	<tr>
+		<td  class="formlabel"><label for="createpin">Create a 4-digit Pin</label></td>
+		<td class="forminput"><input type="text" name="4-digitpin"  class="forminputpin" id="createpin" ng-model="$root.account.pin1" pattern="[0-9]{4}">
+		<p style="float: right;">Your 4-digit pin is requires for<br> phone wagering and helps  retrieve<br> your password, should you forget it.</p></td>
+		
+	</tr>
+	<tr>
+		<td  class="formlabel"><label id="pinlabel" for="Re-enterpin">Re-enter Pin</label></td>
+		<td class="forminput"><input type="text" name="Re-enterPin" class="forminputpin"id="Re-enterpin" ng-model="$root.account.pin2" pattern="[0-9]{4}"></td>
+	</tr>
+	<tr>
+		<td  class="formlabel"><label id="pinlabel" for="ques1">Security Question 1</label></td>
+		<td class="forminput">  
+		
+		<select name="secretquestions" id="ques1" ng-model="$root.account.question1" >
+				<option></option>
+                <option value="ques1">What is your pet name?</option>
+    			<option value="ques2">Enter the name of your school?</option>
+    			<option value="ques3">what is your favourite song?</option>
+    			<option value="ques4">What is your favourite holiday spot?</option>
+  		</select>
+
+		</td>
+		<!-- <input type="hidden" name="SecurityQuestion1">   -->
+	</tr>
+	
+	<tr>
+		<td  class="formlabel"><label for="ans1">Answer</label></td>
+		<td class="forminput"><input type="text" name="ans" id="ans1" ng-model="input.answer1" ></td>
+	</tr>
+	
+	<tr>
+		<td  class="formlabel"><label for="ques2">Security Question 2</label></td>
+		<td class="forminput">
+			<select name="secretquestions" id="ques2" ng-model="$root.account.question2">
+				<option></option>
+                <option value="ques5">who is your favourite actor?</option>
+    			<option value="ques6">Enter the name of your college?</option>
+    			<option value="ques7">what is your favourite movie?</option>
+    			<option value="ques8">What is your favourite country?</option>
+
+  			</select>
+		</td>
+		<!-- <input type="hidden" name="SecurityQuestion2" > -->
+	</tr>
+	
+	<tr>
+		<td  class="formlabel"><label for="ans2">Answer</label></td>
+		<td class="forminput"><input type="text" name="Answer" id="ans2" ng-model="input.answer2"  ></td>
+	</tr>
+	<tr>
+		<td><label for="Promocode">Promo Code /<br>Refer-a-Friend<br>Code</label></td>
+		<td class=""><input type="text" name="Promocode" placeholder="Optional" id="Promocode" ng-model="$root.account.promo"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><button type="button" value="submit"  ng-click='createaccount()' href='#page4' class="Btn_Submit" style="width: 166px;height: 26px">create my account</button>
+		<button type="reset"   value="Cancel" ng-click='refresh()' class="Btn_Reset" style="width: 100px;height: 26px">cancel</button></td>
+	</tr>
+</table>
+
+	</div>
+
+	<div class="cognizantInteractive" style="float: right">
+	<button class="btn btn-primary">why cognizantinteractive.com?</button>
+	<hr/>
+	<p>Cognizant Interactive Team is part of the Cognizant Interactive family</p>
+	<p></p>
+	<hr/>
+	<p>Our Competencies:</p>
+	<ul class="competency">
+	<img src="../assests/images/imgs.png" alt="Html and css" class="imageIcons" />
+		<li>
+			<div class="listContents1">
+				<strong>HTML-CSS</strong>
+				Performances,Insiders Picks,
+				Super Stats
+			</div>
+		</li>
+		<li>
+			<div class="listContents2">
+				<strong>Mobile Applications</strong>
+			</div>
+		</li>
+		<li>
+			<div class="listContents3">
+				<strong>Flash and Flex</strong>
+			</div>
+		</li>
+		<li>
+			<div class="listContents4">
+				<strong>RIA</strong>
+			</div>
+		</li>
+		<li>
+			<div class="listContents5">
+				<strong>UI Development</strong>
+			</div>
+		</li>
+	</ul>
+
+	<hr/>
+	<div class="offers"><strong>We offer many ways to play</strong> :</div>
+	<div class="offerIcons">
+		<img src="../assests/images/comp_icon.png" alt="comp_icon">
+		<p>online</p>
+	</div>
+	<div class="offerIcons">
+	<img src="../assests/images/phone_icon.png" alt="phone_icon">
+	<p>mobile</p>
+	</div>
+	<div class="offerIcons">
+	<img src="../assests/images/phone2_icon.png" alt="phone2_icon">
+	<p>phone</p>
+	</div>
+</div>
+
+<!-- form-section ends  -->	
+
+	
+</section>
+
+
+ 

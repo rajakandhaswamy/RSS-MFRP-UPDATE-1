@@ -1,0 +1,98 @@
+<section class="page1wrapper">
+
+<div class="navbar">
+      <h3 style="margin: 52px 0px 0px 22px;">Sign Up<span class="fast_free"> - It's fast,Easy,Free, & Secure!</span></h3>
+      
+    
+
+
+  <div id="menu">
+    <ul class="nav-breadcrumb">
+      
+      
+      <li><a href="javascript:void(0);" class="unactive"><span class="bold">Step 3</span> Account Details</a></li>
+
+      <li><a href="javascript:void(0);" class="unactive" ><span class="bold">Step 2</span> Personal info</a></li>
+
+      <li><a href="javascript:void(0);" class="active" ><span class="bold">Step 1</span> Basic Info</a></li>
+    </ul>
+  </div>
+
+  <img src="../assests/images/contacticon.png">
+      <p>56666 - HelpDesk</p>
+
+</div>
+
+      
+
+      
+    <form name="myForm" class="page1form">
+      <p class="inputs">
+        <strong>First Name </strong>
+          <input class="inputbox" type="text" pattern="[A-Za-z]{3,12}" ng-model="$root.account.username1" name="uname"/>
+      </p>
+      <p class="inputs">
+        <strong>Last Name </strong>
+        <input class="inputbox" type="text" pattern="[A-Za-z]{3,12}" ng-model="$root.account.lastname" name="lname"/>
+      </p>
+      <p class="inputs">
+        <strong>Email</strong>
+        <input class="inputbox"  type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" ng-model="$root.account.email" /></p>
+      </p>   
+          <div class="phoneColumn">
+          <p class="inputs"><strong>Phone</strong>
+          <input type="tel" ng-model="$root.account.phoneno1" pattern="[7-9]{1}[0-9]{3}"    class="box1"> - 
+          <input type="tel" ng-model="$root.account.phoneno2" pattern="[0-9]{3}"  class="box2"> -
+          <input type="tel" ng-model="$root.account.phoneno3" pattern="[0-9]{3}"
+           class="box3"></p>
+          </div>
+          <p class="inputs"><strong>Zip</strong>
+          <input class="zipCode" type="text" ng-model="$root.account.zipcode" pattern="[0-9]{6}" name="zipCode"/></p>
+
+          
+
+
+          <p><input type="checkbox" name="checkPolicy" ng-model="$root.account.checkAgree" required class="checkBox" style="vertical-align: top;margin-left: 200px;">
+          <label class="validateBox" style="margin: 4px;font-size: 9pt;">I agree to the <a href="#">Terms and Conditions</a> of<br>the Cognizant User Agreement, and that<br><strong>I am 18 years of age or older</strong>
+          </label></p>
+
+
+      <div class="Buttons"> 
+      <input type="button"  value="Submit" ng-click='Submit1()' class="Btn_Submit">
+      <input type="reset"   value="Cancel" ng-click='refresh()' class="Btn_Reset">
+      </div>
+    
+
+    </form>
+
+      <aside class="aside1">
+    <section class="why_Button">
+      <button class="btn-Why">why cognizantinteractive .com?</button>
+      
+    </section>
+    <section class="cognizant_Text">
+      <p>Cognizant Interactive is a part of the<br> cognizant family.</p>
+      <hr/>
+    </section>
+    <section class="offer_Tab">
+    <div class="Sub_Tab">
+      <p class="offer_Text"><b>We offer many ways to play:</b></p>
+        <div class="computer">
+        <img src="../assests/images/comp_icon.png" alt="comp" class="compIcon">
+        <p><strong>online</strong></p>
+        </div>
+        <div class="mobile">
+        <img src="../assests/images/phone_icon.png" alt="phone1" class="mobIcon">
+        <p><strong>mobile</strong></p>
+        </div>
+        <div class="phone">
+        <img src="../assests/images/phone2_icon.png" alt="phone2" class="phoneIcon">
+        <p><strong>phone</strong></p>
+        </div>
+    </div>
+    </section>  
+  </aside>
+
+  
+</section> 
+

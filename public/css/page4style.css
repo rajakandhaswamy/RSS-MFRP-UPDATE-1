@@ -1,0 +1,19 @@
+.thankYou_Text{
+	margin: 0 auto;
+	padding: 85px;
+	margin:100px;
+	text-align: center;
+	margin-right: 390px;
+	background-color: #f4f4f4;
+	width: 800px;
+	min-height: 500px;
+}
+.main_Text,.sub_Text,.sub_Text1{
+	color: #494949;
+}
+.main_Text{
+	padding-top: 50px;
+}
+.sub_Text{
+	padding-top: 10px;
+}

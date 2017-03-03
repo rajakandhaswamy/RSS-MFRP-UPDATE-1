@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+}
+section{
+	width: 724px;
+	height: 1140px;
+	/*border: 2px solid green;*/
+	margin: 0 auto;
+}
+/*.nav-section{
+	width: 724px;
+	height: 172px;
+	border: 2px solid orange;
+	padding-left: 21px;
+    padding-right: 21px;
+
+}*/
+.form-section{
+	width: 724px;
+	height: 761px;
+	/*border: 2px solid red;*/
+	padding-left: 21px;
+    padding-right: 21px;
+    background-color: #f4f4f4;
+}
+.formlabel{
+width: 190px;
+/*width: 156px;*/
+}
+.forminput{
+width: 260px;
+}
+.forminput select{
+width: 270px;
+border: 2px inset;
+}
+.forminputpin{
+width: 60px;	
+}
+table select{
+	width: 270px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+
+/*lastbecnch*/
+/*.formlabel{
+width: 200px;
+}
+.forminput{
+width: 258px;
+}*/
+
+table td label{
+ font-family: arial;
+ font-size: 12pt;
+/* margin: 0px 0px 0px 20px;*/
+}
+input{
+	width: 270px;
+	height: 25px;
+	border-radius: 5px;
+}
+table p{
+	font-family: arial;
+    font-size: 9pt;
+    color: #8c8c8c;
+}
+#pin{
+	width: 62px;
+	height: 25px;
+}
+/*table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}*/
+tr:nth-child(n+5):nth-child(-n+10) td:nth-child(2) {
+    /*background: red;*/
+    padding-bottom:16px; 
+}
+tr:nth-child(n+11):nth-child(-n+12) td:nth-child(2) {
+    /*background: green;*/
+    padding-bottom:38px; 
+}
+
+
+/*lastbecnch*/

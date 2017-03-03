@@ -1,0 +1,723 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------------------CSS RESET ENDS----------------------------------------*/
+
+/*-------------------------HTML STATIC PART---------------------------------------*/
+.basebackground{
+	background: #dcdedf;
+}
+.container{
+	width: 984px;
+	/*border: 2px solid black;*/
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+header{
+	width: 981px;
+	margin: 0 auto;
+	min-height:	64px;
+	
+	text-align: right;
+	
+	background: url(../assests/images/headerbackground.gif) no-repeat;
+	background-size: 100%;
+}
+
+.logo{
+	float: left;
+}
+.Registration{
+	font-family: Arial;
+	color: #fff;
+	margin: 0px; 
+	padding: 18px 24px; 
+}
+.fast_free{
+	color: #b6b6b6;
+}
+.content{ 
+	/*background-color: #f4f4f4;*/
+	width: 984px;
+	/*border: 1px orange solid;*/
+	/*min-height: 1074px;
+	/*margin: 0 auto; */
+}
+
+.navbar{
+	width: 984px;
+	height: 169px;
+	margin: 0 auto;
+	/*border: 2px solid blue;*/
+	float: left;
+}
+
+/*-----------------------------HTML STATIC ENDS------------------------------------------*/
+/*-------------------------NAV BAR----------------*/
+#menu,#menu2,#menu3,#menu4 {
+	width: 674px;
+    display: block;
+    min-height: 37px;
+    margin: 20px 0px 0px 22px;
+    float: left;
+    background-image: url(../assests/images/navbackground.png);
+}
+#menu2 {
+    background-image: url(../assests/images/page2nav.png);
+}
+#menu3 {
+    background-image: url(../assests/images/page3nav.png);
+}
+#menu4 {
+    background-image: url(../assests/images/page4nav.png);
+}
+
+.nav-breadcrumb{
+	width: 674px;
+}
+.nav-breadcrumb li {
+    display: inline;
+}
+.bold{
+	font-family: "Arial";
+}
+.navbar img{
+	float: left;
+    margin: 25px 0px 0px 127px;
+}
+.active,.unactive,.finished{
+	width: 220px;
+    display: block;
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding:11px 0px;
+    position: relative;
+    text-decoration: none;
+}
+.unactive{
+    color: #b6b6b6;
+
+}
+.finished{
+    color: #fff; 
+}
+.navbar p{
+	color: #69a1d5;
+	font-size: Arial ;
+	font: 15pt;
+	margin: 28px 0 0 0;
+    float: left;
+}
+/*-------------------------NAV BAR ENDS----------------*/
+
+
+/*---------------------------PAGE 1 STARTS HERE-----------------------------------*/
+
+.page1wrapper{
+	font-family:"Arial";
+	
+	
+	width: 983px;
+	height: 650px;
+	/*border: 2px solid green;*/
+	float: left;
+}
+.page1form{
+	width: 698px;
+	height: 480px;
+	float: left;
+	background-color:#f4f4f4;
+	margin: 0 0 0 2%;
+	border:2px solid orange;
+}
+.box1{
+	width: 50px;
+	margin-left: 132px;
+	border-radius: 3px;
+}
+.box2{
+	width: 50px;
+	border-radius: 3px; 
+}
+.box3{
+	width: 50px;
+	border-radius: 3px;
+}
+.zipCode{
+	width: 90px;
+	min-height: 23px;
+	border-radius: 3px;
+	margin-left: 155px;
+}
+.termsAndConditions{
+	margin: 5px;
+	margin-left: 79px;
+	display: inline-block;
+} 
+.termsAndConditions input{
+	padding-right: 5px;
+}
+
+.Conditions{
+	float: right;
+	margin: 5px;
+}
+.checkBox{
+	width: 15px;
+	height: 15px;
+}
+.Buttons{
+	float: right;
+	margin-right: 298px;
+    margin-top: 20px;
+}
+.help-block {
+    float: left;
+    margin-top: -3px;
+    margin-bottom: -23px;
+    color:black;
+}
+.Submit{
+	border-radius: 10px;
+	width: 200px;
+	color: white;
+	border-color: white;
+}
+.Btn_Submit{
+	width: 100px;
+	border-radius: 5px;
+	color: white;
+	border-color: white;
+	background: #6db3f2; 
+	background: -moz-linear-gradient(top, #6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%); 
+	background: -webkit-linear-gradient(top, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%);
+	background: linear-gradient(to bottom, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 );
+}
+.Btn_Reset{
+	width: 100px;
+	border-radius: 5px;
+	color:#6ea1d1;
+	border-color: white;
+	background: #e2e2e2;
+	background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+	background: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+	background: linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 );
+}
+
+/*------------------PAGE1 ASIDE CSS----------------*/
+/*.Wrapper{
+	margin: 0 auto;
+	width: 230px;
+	height: 230px;
+	border:2px solid;
+	border-color: #a9aaaa;
+	padding: 2px;
+	border-radius: 5px;
+
+}*/
+.aside1{
+	width: 227px;
+	height: 254px;
+	float: right;
+	border: 1px solid black;
+	margin: 0 15px 0 0;
+}
+.why_Button{
+width: 220px;
+height: 30px;
+}
+.btn-Why{
+	width: 225px;
+	height: 30px;
+	border-radius: 5px;
+	border:3px solid #616261; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:10px;font-style: arial; padding: 3px 40px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ 	background-color: #7d7e7d; background-image: -webkit-gradient(linear, left top, left bottom, from(#7d7e7d), to(#0e0e0e));
+ 	background-image: -webkit-linear-gradient(top, #7d7e7d, #0e0e0e);
+ 	background-image: -moz-linear-gradient(top, #7d7e7d, #0e0e0e);
+ 	background-image: -ms-linear-gradient(top, #7d7e7d, #0e0e0e);
+ 	background-image: -o-linear-gradient(top, #7d7e7d, #0e0e0e);
+ 	background-image: linear-gradient(to bottom, #7d7e7d, #0e0e0e);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7d7e7d, endColorstr=#0e0e0e);
+}
+.btn-Why:hover{
+ border:3px solid #4a4b4a;
+ background-color: #646464; background-image: -webkit-gradient(linear, left top, left bottom, from(#646464), to(#282828));
+ background-image: -webkit-linear-gradient(top, #646464, #282828);
+ background-image: -moz-linear-gradient(top, #646464, #282828);
+ background-image: -ms-linear-gradient(top, #646464, #282828);
+ background-image: -o-linear-gradient(top, #646464, #282828);
+ background-image: linear-gradient(to bottom, #646464, #282828);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#646464, endColorstr=#282828);
+ }
+ .cognizant_Text{
+ 	width: 228px;
+ 	height: 100px;
+ 	margin: 25px 0 0 0;
+ 	padding-bottom: 10px;
+ 	margin-left: 10px;
+ 	font-size: 10px;
+ }
+ .why_Button hr{
+ 	width: 215px;
+ 	margin: 5px;
+ 	border-color: #a9aaaa;
+ }
+ .offer_Tab{
+ float: left;
+ width: 230px;
+ height: 75px;
+}
+/* .icons_List{
+ 	float:left;
+ 	list-style-type: none;
+ 	margin-top:2 0px; 
+ }*/
+ .compIcon{
+ 	margin-left: 5px;
+ 	float: left;
+ }
+ .mobIcon{
+ 	margin-left: 12px;
+ 	float: left;
+ }
+.cognizant_Text hr{
+	width: 212px;
+	margin-left:-3px;
+	margin-top: 55px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 1px solid #a9aaaa;
+}
+.offer_Text{
+	padding-top: 2px;
+	font-size: 10px;
+	margin-left: 10px;
+}
+.phoneIcon{
+	margin-left: -7px;
+	float: left;
+}
+.icon_Name{
+	float: left;
+	list-style-type: none;
+	margin: 5px;
+}
+.computer{
+	width: 50px;
+	min-height: 50px;
+	margin-left: 5px;
+	font-size: 10px;
+	float: left;
+}
+.computer p{
+	margin: 0 23px 10px 10px;
+}
+.mobile{
+	width: 50px;
+	min-height: 50px;
+	margin-left: 11px;
+	font-size: 10px;
+	float: left;
+	margin-top: -1px;
+}
+.mobile p{
+	margin: 0 23px 10px 10px;
+}
+.Sub_Tab{
+	width: 230px;
+	min-height: 100px;
+	display:inline-block;
+}
+.phone{
+	float: left;
+	width: 50px;
+	min-height: 50px;
+	margin-left: 11px;
+	font-size: 10px;
+
+}
+/*--------------PAGE 1 ENDS ------------------------------------*/
+
+
+
+/*<-------------PAGE 2 CSS STARTS HERE------------------------>*/
+.page2wrapper{
+	width: 983px;
+	height: 905px;
+	/*border:2px solid black;*/
+	
+
+}
+.underline{
+	border: 6px;
+	border-color: #000;
+	float: right;
+}
+.page2form{
+	float: left;
+	width: 695px;
+	height: 902px;
+	border:2px solid orange;
+	background-color: #f4f4f4;
+}
+.inputbox{
+	border-radius: 3px;
+	float: right;
+	   margin-right: 210px;
+}
+.inputs{
+	padding: 16px;
+
+}
+.clear{
+	clear: both;
+}
+.verify_Text{
+	font-size: 14px;
+    padding: 3px 0px 0px 13px;
+}
+.verify_Title{
+    display: block;
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 4px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 2px solid #e5e5e5
+}
+/*--------------------PAGE 2 ASIDE STARTS-----------------------*/
+.cognizantInteractive {
+	width: 240px;
+	height: 560px;
+	border:0.5px solid #ccc;
+	border-radius: 10px;
+}
+.btn-primary {
+margin:3.5%;
+background: #828282; /* Old browsers */
+background: -moz-linear-gradient(top, #828282 0%, #131313 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #828282 0%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #828282 0%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#828282', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
+.btn-primary:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#828282+0,131313+100 */
+background: #828282; /* Old browsers */
+background: -moz-linear-gradient(top, #828282 0%, #131313 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #828282 0%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #828282 0%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#828282', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+}
+.competency{
+	padding:0;
+}
+.imageIcons{
+	float: left;
+}
+li{
+	float: right;
+	vertical-align: top;
+	list-style-type: none;
+}
+.listContents1{
+	width: 180px;
+	float: right;
+	font-size: 10pt;
+}
+.listContents2{
+	width: 180px;
+	float: right;
+	font-size: 10pt;
+	padding:10px 0 20px 0px;
+}
+.listContents3{
+	width: 180px;
+	float: right;
+	font-size: 10pt;
+	padding:20px 0 10px 0px;
+}
+.listContents4{
+	width: 180px;
+	float: right;
+	font-size: 10pt;
+	padding:25px 0 20px 0px;
+}
+.listContents5{
+	width: 180px;
+	float: right;
+	font-size: 10pt;
+	padding:5px 0 10px 0px;
+}
+.offers {
+	clear: both;
+}
+hr{
+	clear: both;
+	margin-top: 0;
+}
+.offerIcons{
+	float: left;
+	padding: 10px 20px 0 5px;
+}
+
+
+/*--------------------PAGE 2 ASIDE ENDS-----------------------*/
+
+/*<----------------PAGE 2 CSS ENDS ------------------------------------->*/
+
+
+/*<------------------PAGE 3 CSS STARTS HERE------------------------------->*/
+*{
+	box-sizing: border-box;
+}
+.page3wrapper{
+	width: 982px;
+	height: 731px;
+	/*border:2px solid black;*/
+	
+}
+
+/*.nav-section{
+	width: 724px;
+	height: 172px;
+	border: 2px solid orange;
+	padding-left: 21px;
+    padding-right: 21px;
+
+}*/
+.form-section{
+	width: 697px;
+	height: 730px;
+	border: 2px solid red;
+	/*padding-left: 21px;
+    padding-right: 21px;*/
+    background-color: #f4f4f4;
+    float: left;
+}
+.formlabel{
+width: 190px;
+/*width: 156px;*/
+}
+.forminput{
+width: 260px;
+}
+.forminput select{
+width: 270px;
+border: 2px inset;
+}
+.forminputpin{
+width: 60px;	
+}
+table select{
+	width: 270px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+
+
+/*.formlabel{
+width: 200px;
+}
+.forminput{
+width: 258px;
+}*/
+
+table td label{
+ font-family: arial;
+ font-size: 12pt;
+/* margin: 0px 0px 0px 20px;*/
+}
+input{
+	width: 270px;
+	height: 25px;
+	border-radius: 5px;
+}
+table p{
+	font-family: arial;
+    font-size: 9pt;
+    color: #8c8c8c;
+}
+#pin{
+	width: 62px;
+	height: 25px;
+}
+/*table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}*/
+tr:nth-child(n+5):nth-child(-n+10) td:nth-child(2) {
+    /*background: red;*/
+    padding-bottom:16px; 
+}
+tr:nth-child(n+11):nth-child(-n+12) td:nth-child(2) {
+    /*background: green;*/
+    padding-bottom:38px; 
+}
+/*-----------------page 3 aside-----------------------------*/
+
+.cognizantInteractive {
+	width: 240px;
+	height: 560px;
+	border:0.5px solid #ccc;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+.btn-primary {
+margin:3.5%;
+background: #828282; /* Old browsers */
+background: -moz-linear-gradient(top, #828282 0%, #131313 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #828282 0%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #828282 0%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#828282', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
+.btn-primary:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#828282+0,131313+100 */
+background: #828282; /* Old browsers */
+background: -moz-linear-gradient(top, #828282 0%, #131313 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #828282 0%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #828282 0%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#828282', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+}
+.competency{
+	padding:0;
+}
+.imageIcons{
+	float: left;
+}
+li{
+	float: right;
+	vertical-align: top;
+	list-style-type: none;
+}
+.listContents1{
+	width: 180px;
+	float: right;
+	font-size: 10pt;
+}
+.listContents2{
+	width: 180px;
+	float: right;
+	font-size: 10pt;
+	padding:10px 0 20px 0px;
+}
+.listContents3{
+	width: 180px;
+	float: right;
+	font-size: 10pt;
+	padding:20px 0 10px 0px;
+}
+.listContents4{
+	width: 180px;
+	float: right;
+	font-size: 10pt;
+	padding:25px 0 20px 0px;
+}
+.listContents5{
+	width: 180px;
+	float: right;
+	font-size: 10pt;
+	padding:5px 0 10px 0px;
+}
+.offers {
+	clear: both;
+}
+hr{
+	clear: both;
+	margin-top: 0;
+}
+.offerIcons{
+	float: left;
+	padding: 10px 20px 0 5px;
+}
+
+/*-------------------PAGE 3 CSS ENDS--------------------------------------------*/
+
+/*--------------------------------PAGE 4 CSS STARTS-------------*/
+.page1wrapper{
+	font-family:"Arial";
+	
+	
+	width: 983px;
+	height: 650px;
+	/*border: 2px solid green;*/
+	float: left;
+}
+
+.thankYou_Text{
+	margin: 0 auto;
+    padding: 85px;
+    
+    text-align: center;
+    
+    background-color: #f4f4f4;
+    width: 675px;
+    height: 584px;
+    float: left;
+}
+.main_Text,.sub_Text,.sub_Text1{
+	color: #494949;
+}
+.main_Text{
+	padding-top: 50px;
+}
+.sub_Text{
+	padding-top: 10px;
+}
+
+
+/*--------------------------------PAGE 4 CSS ENDS-------------*/
